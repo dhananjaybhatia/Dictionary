@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:not(i) {
+  font-family: "Amatic SC", sans-serif;
+}
+
+body {
+  background-color: aquamarine;
+}
+.container {
+  background-color: #fff;
+  width: 90vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 80px 50px;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(38, 33, 61, 0.4);
+}
+
+.search-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.search-box input {
+  padding: 5px;
+  width: 70%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(84, 158, 115);
+  font-size: 50px;
+}
+.search-box button {
+  padding: 5px 0;
+  background-color: transparent;
+  width: 25%;
+  border: none;
+  outline: none;
+  color: rgb(29, 48, 41);
+  font-size: 500%;
+  border-radius: 15%;
+}
+.result {
+  position: relative;
+}
+.result h3 {
+  font-size: 30px;
+  color: rgb(38, 80, 83);
+}
+.word {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.result button {
+  background-color: transparent;
+  font-size: 300%;
+  border: none;
+  outline: none;
+  margin-right: 5%;
+  color: rgb(38, 80, 83);
+}
+.result .details {
+  display: flex;
+  gap: 10px;
+  color: rgb(121, 134, 135);
+  font-weight: 600;
+  margin: 5px 0 20px 0;
+  font-size: 20px;
+}
+
+.word-meaning {
+  color: rgb(117, 119, 120);
+  font-size: 50px;
+}
+.word-example {
+  color: rgb(117, 119, 120);
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 900;
+  border-left: 3px solid rgb(125, 135, 135);
+  padding-left: 20px;
+  margin-top: 20px;
+}
